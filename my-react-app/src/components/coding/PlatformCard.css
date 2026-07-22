@@ -1,0 +1,80 @@
+.platform-card{
+  position: relative;
+  width: 290px;
+  min-height: 350px;
+
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+  backdrop-filter: blur(15px);
+
+  border-radius: 18px;
+  padding: 24px 20px;
+
+  overflow: hidden;
+  transition: .45s;
+
+  box-shadow: 0 15px 45px rgba(0,0,0,.35);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* logo */
+
+.platform-logo{
+  width:70px;
+  height:70px;
+  font-size:36px;
+  margin-bottom:16px;
+  color:white;
+  transition:.4s;
+}
+
+/* heading */
+.platform-card h3{
+  color:white;
+  font-size:30px;
+  font-weight:700;
+  margin:12px 0 6px;
+}
+
+
+/* username */
+.username{
+  color:#a5b4fc;
+  font-size:18px;
+  margin-bottom:12px;
+}
+
+/* divider */
+.divider{
+  margin:12px 0 18px;
+}
+
+/* stats */
+.stats{
+  margin-bottom:20px;
+  gap:10px;
+}
+
+.stat-box{
+  padding:12px;
+}
+
+.stat-number{
+  font-size:20px;
+}
+
+.stat-title{
+  font-size:12px;
+}
+
+/* button */
+.visit-btn{
+  width:100%;
+  padding:12px;
+  font-size:16px;
+  border-radius:10px;
+}
